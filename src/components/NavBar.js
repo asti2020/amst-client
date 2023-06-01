@@ -5,8 +5,10 @@ function NavBar (){
               <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                   <div className="container-fluid ">
-                    <NavLink className="navbar-brand" to="/">
-                      <img src="https://imgv3.fotor.com/images/blog-cover-image/part-blurry-image.jpg" className=" place-self-start object-fill w-50 " alt="logo" />
+                    <NavLink className="navbar-brand" to="/profile">
+                      <img src="https://imgv3.fotor.com/images/blog-cover-image/part-blurry-image.jpg" className=" place-self-start object-fill rounded-circle"
+                        height="50px" width="50px"
+                        alt="logo" />
                     </NavLink>
                     <button className="navbar-toggler place-self-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span className="navbar-toggler-icon"></span>
