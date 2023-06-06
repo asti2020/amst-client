@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import PostCard from './PostCard';
 import Banner from './Banner'
+import Footer from './Footer'
 
 function Home(){
     return(
@@ -16,7 +17,10 @@ function Home(){
         
         <div>
             <PostCard />
-            <h1>Welcome to the Home page!</h1>
+        </div>
+
+        <div>
+            <Footer />
         </div>
         </>
     )
